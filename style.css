@@ -16,7 +16,7 @@ body {
   font-size: 48px;
   color: #ffffff;
   text-shadow: 4px 4px 4px #fff;
-  background-image: url("/assets/background-gif.gif");
+  background-image: url("assets/background-gif.gif");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -41,6 +41,9 @@ canvas {
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+.canvas-border {
   border: 0.2rem solid #fff;
   border-radius: .5rem;
   padding: 0.2em;

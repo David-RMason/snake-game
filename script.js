@@ -160,6 +160,7 @@ function game() {
 }
 
 function newGame() {
+    canvas.classList.add('canvas-border');
     direction = 'right';
     directionQueue = 'right';
     ctx.beginPath();
